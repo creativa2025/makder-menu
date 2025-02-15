@@ -765,7 +765,7 @@ p {
 .dish-box {
     border-radius: 30px;
     background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flow-root;
     padding: 0 30px 40px;
     padding-top: 0;
@@ -1170,6 +1170,13 @@ p {
     }
     .menu-tab ul li {
         padding: 10px 20px;
+    }
+    .dish-box-wp {
+        width: 50%;
+        float: left;
+    }
+    .dish-box {
+        margin: 20px 0;
     }
 }
 
